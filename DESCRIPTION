@@ -1,0 +1,12 @@
+Package: HurdatHadISSTData
+Type: Package
+Title: Hurricane and SST Unified Data Sets
+Version: 0.2.0
+Author: Alfredo Hernández
+Maintainer: Alfredo Hernández <aldomann.designs@gmail.com>
+Description: Unified data sets that summarises the relevant variables (for my Master's Thesis) of each analysed tropical-cyclone using data from the HURDAT2 and the HadISST1.
+    The basins analysed are the North Atlantic Ocean and the Northeast Pacific Ocean.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
