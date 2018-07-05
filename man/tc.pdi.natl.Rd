@@ -4,12 +4,13 @@
 \name{tc.pdi.natl}
 \alias{tc.pdi.natl}
 \title{Hurricane Observations from the NATL basin}
-\format{A data frame with 1365 rows and 13 variables}
+\format{A data frame with 771 rows and 13 variables}
 \usage{
 data(tc.pdi.natl)
 }
 \description{
-A dataset containing summarised hurricane/tropical-cyclone observations from the North Atlantic (1966-2016) basin.
+A dataset containing summarised hurricane/tropical-cyclone observations from the
+North Atlantic (1966-2016) basin.
 }
 \details{
 The variables are as follows:
@@ -27,10 +28,11 @@ The variables are as follows:
   \item basin: NATL (North Atlantic), this column is kept for structure consistency.
   \item sst: Annual and basin-wide averaged sea surface temperature.
   \item sst.norm: Normalised SST.
-  \item sst.class: low for <SST> < 1, high for <SST> >= 1.
+  \item sst.class: low for sst.norm < 1, high for sst.norm >= 1.
 }
 
-The hurricane data (variables 1-9) comes from the HURDAT2, while the SST is calculated from the HadISST1 data (variables 11-13).
+The hurricane data (variables 1-9) comes from the HURDAT2, while the SST is calculated
+from the HadISST1 data (variables 11-13).
 }
 \references{
 HURDAT: \url{http://www.aoml.noaa.gov/hrd/hurdat/Data_Storm.html}, HadISST1: \url{https://www.metoffice.gov.uk/hadobs/hadisst/}
